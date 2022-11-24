@@ -64,7 +64,6 @@ export default function Home() {
                                           style={{ maxWidth: 400 }}
                                     >
                                           <input
-                                                width="100%"
                                                 name="email"
                                                 type="email"
                                                 placeholder="Your email address"
