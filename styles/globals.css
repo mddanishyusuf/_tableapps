@@ -1,26 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;500;700&display=swap');
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+      padding: 0;
+      margin: 0;
+      font-family: 'Sono', sans-serif !important;
+      background-color: #232323;
+      color: #bbbbbb;
+}
+
+p {
+      font-weight: 400;
+      color: #bbb;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+      color: inherit;
+      text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+      box-sizing: border-box;
 }
 
 @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+      html {
+            color-scheme: dark;
+      }
+      body {
+            color: white;
+            background: black;
+      }
+}
+
+input {
+      width: 400px;
+      padding: 0.5rem 0.75rem;
+      font-family: 'Sono', sans-serif !important;
+      border: 1px solid #2e2e2e;
+      background-color: #292929;
+      color: #ededed;
+      border-radius: 0.25rem;
+}
+
+input:focus {
+      outline: 0;
+      border: 1px solid #808080 !important;
+}
+
+input:active {
+      background-color: #292929;
+}
+
+button {
+      padding: 8px 20px;
+      font-family: 'Sono', sans-serif !important;
+      background-color: #2e2e2e;
+      color: #fff;
+      border: 0;
+      cursor: pointer;
+      border-radius: 0.25rem;
+      border: 1px solid #3d3d3d;
+}
+
+button:hover {
+      background-color: #484747;
+}
+
+.note {
+      line-height: 1.8;
+      border: 1px solid #666;
+      color: #666;
+      background-color: #292929;
+      border-radius: 6px;
+      font-size: calc(0.775 * 16px);
+      width: auto;
+      height: auto;
+      padding: calc(0.667 * 16px) calc(1.32 * 16px) calc(0.667 * 16px)
+            calc(1.32 * 16px);
+      margin: 0 0 0 0;
 }
