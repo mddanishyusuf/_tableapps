@@ -61,7 +61,7 @@ export default function Home() {
 
                                     <form
                                           onSubmit={subscribeNow}
-                                          style={{ width: 400 }}
+                                          style={{ maxWidth: 400 }}
                                     >
                                           <input
                                                 width="100%"
