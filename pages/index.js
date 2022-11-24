@@ -38,7 +38,7 @@ export default function Home() {
                                     color: '#fff',
                               }}
                         >
-                              ⚡️ <u>Data tables</u> + <u>Apps</u> +{' '}
+                              <u>Data tables</u> + <u>Apps</u> +{' '}
                               <u>Automation</u> + <u>Public API</u>
                         </h2>
                         <p>
@@ -49,7 +49,7 @@ export default function Home() {
                               product.
                         </p>
                         <br />
-                        <p>⏰ Launching in Jan'2023</p>
+                        <p>⏰ Launching in January-2023</p>
                         <br />
 
                         {!session ? (

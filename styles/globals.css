@@ -1,12 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 
 html,
 body {
       padding: 0;
       margin: 0;
-      font-family: 'Sono', sans-serif !important;
       background-color: #232323;
       color: #bbbbbb;
+}
+
+body,
+button,
+input {
+      font-family: 'DM Sans', sans-serif !important;
 }
 
 p {
@@ -36,7 +41,6 @@ a {
 input {
       width: 400px;
       padding: 0.5rem 0.75rem;
-      font-family: 'Sono', sans-serif !important;
       border: 1px solid #2e2e2e;
       background-color: #292929;
       color: #ededed;
@@ -54,7 +58,6 @@ input:active {
 
 button {
       padding: 8px 20px;
-      font-family: 'Sono', sans-serif !important;
       background-color: #2e2e2e;
       color: #fff;
       border: 0;
@@ -73,7 +76,7 @@ button:hover {
       color: #666;
       background-color: #292929;
       border-radius: 6px;
-      font-size: calc(0.775 * 16px);
+      font-size: calc(0.875 * 16px);
       width: auto;
       height: auto;
       padding: calc(0.667 * 16px) calc(1.32 * 16px) calc(0.667 * 16px)
