@@ -49,7 +49,8 @@ export default function Home() {
                               product.
                         </p>
                         <br />
-                        <p>⏰ Launching in January-2023</p>
+                        <p><s>⏰ Launching in January-2023</s></p>
+                        <p>⏰ Launching in Feb-2023, first week.</p>
                         <br />
 
                         {!session ? (
